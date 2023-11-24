@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#contactos{
+    margin-bottom: 35px;
+}
+
+.navbar{
+    position: sticky;
+    z-index: 1;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    top: 0;
+    background-color: #fff;
+}
+
+.img-sep{
+    padding: 20px 20px;
+}
+
+.tarjeta-icono{
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px #a17a69;
+    padding: 20px;
+    margin: 10px;
+  }
+
+.text-sep{
+    padding: 5px 50px;
+}
+
+.card-esp{
+    padding: 10px 32px;
+    gap: 30px;
+}
+
+button{
+    background-color: #fff;
+    border: 0;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+  }
+  
+.redes-con{
+    width: 2rem;
+    height: 2rem;
+  }
+
+.icono{
+    width: 150px;
+    padding: 16px;
+}
+
+footer{
+    padding: 32px 16px;
+}
+
+@media (max-width: 840px){
+    .down{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
